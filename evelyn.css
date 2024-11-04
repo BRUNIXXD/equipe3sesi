@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    padding: 35px;
+    background-color: rgb(126, 63, 63);
+}
+
+h1.conflitos{
+        color: #ffffff; 
+        padding: 0px;
+        text-align: center;
+}
+
+body {
+    text-align: justify; /* Centraliza o texto no corpo da página */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 20px; /* Adiciona um pouco de espaço ao redor do conteúdo */
+}
+
+h1, h2, h4 {
+    margin: 50px 0; /* Adiciona espaço entre os títulos e o texto */
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%; /* Faz a imagem responsiva */
+    height: 500px; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+
+
+
+

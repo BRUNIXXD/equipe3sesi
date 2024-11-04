@@ -1,0 +1,121 @@
+header{
+    width: 100%;
+    padding: 45px;
+    background-color: rgb(121, 17, 17);
+}
+
+H1.titulo{
+   color: #ffffff; 
+   padding: 20px;
+   text-align: center;
+}
+
+.oriente{
+  font-family:fantasy;
+}
+
+h5.equipe3{
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+img.oriental{
+  width: 400px;
+  
+  border-radius: 100%;
+  margin: 70px;
+}
+
+
+#textofoto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+
+.card {
+  margin: 10px; /* add some margin to create space between cards */
+  
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card-container > .card {
+  flex: 1;
+  margin: 3.5px;
+}
+  
+h1.conflitos{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.rodape {
+  background-color: rgb(126, 63, 63);
+  color: white; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 40px; /* Espaçamento interno */
+  position: relative; /* Para posicionamento */
+  bottom: 0; /* Fixa o rodapé na parte inferior */
+  width: 100%; /* Largura total */
+}
+
+.icon-link {
+  display: flex; /* Usar flexbox para alinhar itens */
+  align-items: center; /* Alinha verticalmente o ícone e o texto */
+  justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+  text-decoration: none; /* Remove o sublinhado padrão do link */
+  color: inherit; /* Herda a cor do texto do elemento pai */
+}
+
+.icon-link svg {
+  margin-left: 8px; /* Espaçamento entre o texto e o ícone */
+}
+
+/* Estilos adicionais para o efeito de hover, se necessário */
+.icon-link-hover:hover {
+  color: rgb(0, 123, 255); /* Altera a cor ao passar o mouse (exemplo) */
+}
+
+.container {
+  
+  align-items: center; /* Alinha verticalmente a imagem e os textos */
+}
+
+.container img {
+  width: 200px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  
+  
+}
+
+.titulo {
+  margin: 0; /* Remove margens padrão do título */
+}
+
+.equipe3 {
+  margin: 0; /* Remove margens padrão do subtítulo */
+}
+
+.link {
+  display: flex;                /* Usar Flexbox para centralização */
+  justify-content: center;      /* Centraliza horizontalmente */
+  align-items: center;          /* Centraliza verticalmente */
+                 /* Define a altura do contêiner como 100% da altura da viewport */
+}
+
+.icon-link {
+  text-decoration: none;        /* Remove o sublinhado do link */
+  color: #007bff;              /* Define a cor do link (ajuste conforme necessário) */
+  font-size: 1.5rem;           /* Ajusta o tamanho da fonte (opcional) */
+}
+
